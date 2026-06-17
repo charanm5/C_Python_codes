@@ -1,0 +1,40 @@
+1. #include <stdio.h>
+   #include <string.h>
+   #include <stdlib.h>
+
+int main() {
+    char src[] = "hello";
+    char* dst = malloc(sizeof(src));
+    memcpy(dst, src, strlen(src));
+    printf("%s\n",dst);
+}
+
+2.
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+
+#define SIZE 5
+
+int main() {
+    int arr[5],i;
+    memset(arr, 0, sizeof(arr));
+    for(i=0;i<SIZE;i++)
+        printf("%d ",arr[i]);
+    return 0;
+}
+
+3.
+
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+
+#define SIZE 5
+
+int main() {
+   char name[] = "John";
+    if(memcmp(name, "John", 4) == 0)
+        printf("Same\n");
+    return 0;
+}

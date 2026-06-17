@@ -1,0 +1,9 @@
+#include<stdio.h>
+
+int main()
+{
+    int arr[] = {2, 4, 6, 8, 10};
+    int *p1 = &arr[4];  // points to 10
+    int *p2 = &arr[1];  // points to 4
+    printf("The distance between the elements is %d\n",(p1-p2));
+}

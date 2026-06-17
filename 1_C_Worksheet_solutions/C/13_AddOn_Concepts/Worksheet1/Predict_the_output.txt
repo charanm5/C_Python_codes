@@ -1,0 +1,19 @@
+1. What will be the contents of arr after this?
+	char arr[5];
+	memset(arr, 'A', sizeof(arr));
+arr[5] = A A A A A
+
+
+2. Predict the output:
+
+char a[] = "abcde";
+char b[] = "abcdf";
+int res = memcmp(a, b, 5);
+printf("%d", res);
+
+output will be negative
+
+3. What happens here?
+	char data[] = "123456";
+	memmove(data + 2, data, 3);
+output : 121236

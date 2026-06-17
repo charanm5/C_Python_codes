@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <stddef.h>
+
+struct PeripheralRegs {
+    char  status;   
+    int   control; 
+    short error;   
+};
+
+struct __attribute__((packed)) PackedPeripheralRegs {
+    char  status;
+    int   control;
+    short error;
+};
+
+int main() {
+    printf("Normal structure:\n");
+    printf("  sizeof = %zu\n", sizeof(struct PeripheralRegs));
+    printf("  status  offset = %zu\n", offsetof(struct PeripheralRegs, status));
+    printf("  control offset = %zu\n", offsetof(struct PeripheralRegs, control));
+    printf("  error   offset = %zu\n", offsetof(struct PeripheralRegs, error));
+
+    printf("\nPacked structure:\n");
+    printf("  sizeof = %zu\n", sizeof(struct PackedPeripheralRegs));
+    printf("  status  offset = %zu\n", offsetof(struct PackedPeripheralRegs, status));
+    printf("  control offset = %zu\n", offsetof(struct PackedPeripheralRegs, control));
+    printf("  error   offset = %zu\n", offsetof(struct PackedPeripheralRegs, error));
+
+    return 0;
+}

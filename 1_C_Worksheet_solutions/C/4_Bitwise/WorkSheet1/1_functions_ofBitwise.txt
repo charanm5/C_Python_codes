@@ -1,0 +1,25 @@
+-> Bitwise operators work directly on the individual bits (0s and 1s) of integer values.
+-> The AND operator returns 1 only if both corresponding bits are 1.
+   Example: A = 12 = 1100 
+	  & B = 10 = 1010
+             A & B = 1000 = 8
+
+-> The OR operator returns 1 if at least one of the corresponding bits is 1.
+   Example: A = 12 = 1100
+	    B = 10 = 1010
+	     A | B = 1110 = 14
+
+-> The XOR operator returns 1 when the bits are different.
+   Example:  A = 12 = 1100
+    	     B = 10 = 1010
+             A ^ B = 0110 = 6
+
+-> The Left shift operator shifts all bits to the left by a specified number of positions and each left shift by 1 generally multiplies the value by 2.
+    Example: A = 5 = 00000101₂
+             A << 1 = 00001010₂ = 10 
+             A << 2 = 00010100₂ = 20
+
+-> The Right shift operator shifts all bits to the right by a specified number of positions and Each right shift by 1 generally divides the value by 2.
+    Example: A = 20 = 00010100
+             A >> 1 = 00001010 = 10
+             A >> 2 = 00000101 = 5

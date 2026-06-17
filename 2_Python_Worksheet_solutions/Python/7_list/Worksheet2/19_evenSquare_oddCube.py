@@ -1,0 +1,1 @@
+print([x*x if x%2==0 else x**3 for x in range(1,21)])

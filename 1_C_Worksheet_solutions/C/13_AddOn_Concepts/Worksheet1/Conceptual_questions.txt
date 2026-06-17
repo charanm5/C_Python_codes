@@ -1,0 +1,15 @@
+1. Why is memset commonly used after dynamic memory allocation?
+soln: memset() is commonly used after dynamic memory allocation because malloc() do not initialize memory, So the memory
+      contain garbage values.
+
+2. What are the risks of using memcpy incorrectly?
+soln: Memory Overlap
+
+3. How does memmove avoid problems caused by overlapping memory regions?
+soln: memmove() avoids overlap problems by detecting whether the source and destination memory regions overlap, and then choosing a safe copying direction.
+
+4. How does memcmp determine the result if two arrays are not equal?
+soln: memcmp() compares memory byte-by-byte and returns the difference between the first pair of differing bytes it finds or 0 if all bytes are equal.
+
+5. What happens if memchr does not find the given character?
+soln: memchr return NULL on not finding the given character in specified number of bytes.

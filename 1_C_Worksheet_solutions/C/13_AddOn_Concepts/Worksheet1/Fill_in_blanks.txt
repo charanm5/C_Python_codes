@@ -1,0 +1,6 @@
+Fill in the Blanks
+memcpy is used to fill a block of memory with a specific value.
+memmove is safe to use when source and destination overlap.
+memcmp compares two blocks of memory byte-by-byte.
+memchr searches for a specific byte in memory.
+memcpy can be used to copy a string to another buffer (without overlap).
