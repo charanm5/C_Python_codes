@@ -1,0 +1,1 @@
+.\dealy.o: dealy.c

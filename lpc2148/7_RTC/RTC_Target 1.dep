@@ -1,0 +1,28 @@
+Dependencies for Project 'RTC', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x532C14EA)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\main.c)(0x6A3A7719)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (rtc.h)(0x6A3A771C)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.h)(0x532C1500)
+I (ds1307.h)(0x6A3A771C)
+I (lcd.h)(0x6A3A771C)
+I (delay.h)(0x6A3A771C)
+I (uart.h)(0x6A3A775C)
+I (C:\Keil\ARM\Inc\Philips\lpc214x.h)(0x532C1500)
+F (.\lcd.c)(0x6A3A771C)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\lcd.o --omf_browse .\lcd.crf --depend .\lcd.d)
+I (lcd.h)(0x6A3A771C)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.h)(0x532C1500)
+I (delay.h)(0x6A3A771C)
+F (.\ds1307.c)(0x6A3A771C)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\ds1307.o --omf_browse .\ds1307.crf --depend .\ds1307.d)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.h)(0x532C1500)
+I (rtc.h)(0x6A3A771C)
+F (.\delay.c)(0x6A3A771C)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\delay.o --omf_browse .\delay.crf --depend .\delay.d)
+I (delay.h)(0x6A3A771C)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.h)(0x532C1500)
+F (.\i2c.c)(0x6A3A771C)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\i2c.o --omf_browse .\i2c.crf --depend .\i2c.d)
+I (rtc.h)(0x6A3A771C)
+I (C:\Keil\ARM\Inc\Philips\LPC21xx.h)(0x532C1500)
+I (uart.h)(0x6A3A775C)
+I (C:\Keil\ARM\Inc\Philips\lpc214x.h)(0x532C1500)
+F (.\uart.c)(0x6A3A775A)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Philips-o .\uart.o --omf_browse .\uart.crf --depend .\uart.d)
+I (uart.h)(0x6A3A775C)
+I (C:\Keil\ARM\Inc\Philips\lpc214x.h)(0x532C1500)

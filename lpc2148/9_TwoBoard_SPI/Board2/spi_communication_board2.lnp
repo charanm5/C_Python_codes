@@ -1,0 +1,10 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\main.o"
+".\dealy.o"
+".\spi.o"
+".\uart.o"
+--strict --scatter ".\spi_communication_board2.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\spi_communication_board2.map" -o .\spi_communication_board2.axf
